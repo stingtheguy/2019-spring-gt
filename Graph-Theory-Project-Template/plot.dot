@@ -1,0 +1,57 @@
+digraph G{
+rankdir=LR;
+node [shape=record];
+
+d [label="d(switch)"];
+e [label="e(switch)"];
+d->e[label="(5) 80"];
+e [label="e(switch)"];
+a [label="a(switch)"];
+e->a[label="(12) 80"];
+b [label="b(switch)"];
+d [label="d(switch)"];
+b->d[label="(50) 80"];
+a [label="a(switch)"];
+b [label="b(switch)"];
+a->b[label="(10) 80"];
+c [label="c(switch)"];
+d [label="d(switch)"];
+c->d[label="(20) 80"];
+f [label="f(switch)"];
+c [label="c(switch)"];
+f->c[label="(22) 80"];
+b [label="b(switch)"];
+e [label="e(switch)"];
+b->e[label="(10) 80"];
+c [label="c(switch)"];
+e [label="e(switch)"];
+c->e[label="(33) 80"];
+d [label="d(switch)"];
+f [label="f(switch)"];
+d->f[label="(12) 80"];
+e [label="e(switch)"];
+f [label="f(switch)"];
+e->f[label="(1) 80"];
+a [label="a(switch)"];
+c [label="c(switch)"];
+a->c[label="(20) 80"];
+e [label="e(switch)"];
+a [label="a(switch)"];
+e->a[label="(0) 2"];
+f [label="f(switch)"];
+c [label="c(switch)"];
+f->c[label="(0) 2"];
+c [label="c(switch)"];
+d [label="d(switch)"];
+c->d[label="(0) 2"];
+d [label="d(switch)"];
+e [label="e(switch)"];
+d->e[label="(0) 2"];
+e [label="e(switch)"];
+a [label="a(switch)"];
+e->a[label="(0) 2"];
+a [label="a(switch)"];
+b [label="b(switch)"];
+a->b[label="(0) 2"];
+
+}
